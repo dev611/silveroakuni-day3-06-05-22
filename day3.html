@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Hover Element </title>
+	</head>
+	<body bgcolor="yellow" text="red">
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+		<ul id="MainUL">
+			<li>Redme
+				<ul>
+					<li> 11 series
+						<ul>
+							<li>11 i</li>
+							<li>11 i hypercharge
+								<ul>
+									<li>Redme note 11 pro</li>
+									<li>Redme 11</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>Real me</li>
+					<li>I Phone</li>
+					<li>One Plus</li>
+				</ul>
+			</li>
+			<li> HOBBY
+				<ul>
+					<li>Gameing</li>
+					<li>Music</li>
+				</ul>
+			</li>
+			<li>SKILL</li>
+			<li>COADING
+				<ul>
+					<li>HTML</li>
+					<li>C</li>
+					<li>CSS</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
